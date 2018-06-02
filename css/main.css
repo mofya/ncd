@@ -1,0 +1,57 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+label.valid {
+  width: 24px;
+  height: 24px;
+  background: url(../img/valid.png) center center no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+}
+label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+
+.sidebar-nav-fixed {
+     position:fixed;
+     top:60px;
+     width:20%;
+ }
+
+/*custom nav-tabs css*/
+.nav-tabs {
+    border-color: #eaeef1;
+}
+.nav-tabs > li > a {
+    border-radius: 2px 2px 0 0;
+    border-bottom-color: #eaeef1 !important;
+}
+.nav-tabs > li.active > a {
+    border-color: #eaeef1 !important;
+    border-bottom-color: #fff !important;
+}
+.panel-heading .nav-tabs {
+    margin: -11px -16px;
+}
+/* end custom css*/
+
+ @media (max-width: 767px) {
+     .sidebar-nav-fixed {
+         width:auto;
+     }
+ }
+
+ @media (max-width: 979px) {
+     .sidebar-nav-fixed {
+         position:static;
+        width: auto;
+     }
+ }
+
